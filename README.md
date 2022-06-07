@@ -1,7 +1,7 @@
 # QuizXBored-Mashup-app 
 
 I used two different APIs: Quiz api and Boredom api in this app.
-This app gives you things to do when you are bored when look up for a quiz based on its level(easy/medium/difficult).
+This app gives you things to do when you are bored after search for a quiz question based on its level(easy/medium/difficult).
 
 
 
