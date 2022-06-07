@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>Quiz/Bored Mashup App
+    <style>
+        head {
+            font-size: 100px;
+        }
+        
+        body,
+        form {
+            margin: 100px auto;
+            max-width: 800px;
+            max-height: 1000;
+            overflow-x: hidden;
+        }
+        
+        fieldset {
+            display: flex;
+        }
+    </style>
+</head>
+
+<body bgcolor="skyblue">
+    <form action="v1/questions" method="get">
+        <fieldset>
+            <legend style="color:white;font-size:40px;">Quiz question</legend>
+            <label for="difficulty">Difficulty level : </label>
+            <input id="difficulty" name="difficulty" type="text" />
+
+            <input type="submit" value="Play" />
+
+        </fieldset>
+    </form>
+
+</body>
+
+</html>
